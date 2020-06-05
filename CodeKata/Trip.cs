@@ -3,7 +3,8 @@ using System.Diagnostics;
 
 namespace CodeKata
 {
-    [("Driver = {Driver}, StartTime = {StartTime}, StopTime = {StopTime}, Miles = {Miles}, Elapsed = {Elapsed}, MilesPerHour = {MilesPerHour}")]
+    //https://docs.microsoft.com/en-us/visualstudio/debugger/using-the-debuggerdisplay-attribute?view=vs-2019
+    [DebuggerDisplay("Driver = {Driver}, StartTime = {StartTime}, StopTime = {StopTime}, Miles = {Miles}, Elapsed = {Elapsed}, MilesPerHour = {MilesPerHour}")]
     public class Trip
     // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/get
     {
